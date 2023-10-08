@@ -6,7 +6,7 @@ library(openxlsx)
 
 # Define la ruta de tu archivo Excel
 
-datos <- read_xlsx("C:\\Users\\rpm0a\\OneDrive\\Documentos\\RepTemplates\\ZMVM99-19\\Bases\\2009.xlsx")
+datos <- read_xlsx("/Users/leonardoperezvictorino/ZMVM99-19/Bases/BLzm19_final.xlsx")
 
 
 # Aplicar las condiciones a las variables QLue y PR
@@ -17,4 +17,4 @@ datos <- datos %>%
 
 # Guardar los datos procesados en un nuevo archivo Excel
 
-write.xlsx(datos, "C:\\Users\\rpm0a\\OneDrive\\Documentos\\RepTemplates\\ZMVM99-19\\Productos\\2009_2.xlsx")
+write.xlsx(datos, "/Users/leonardoperezvictorino/ZMVM99-19/Productos/BLzm19_2.xlsx")
